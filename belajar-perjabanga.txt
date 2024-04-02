@@ -1,0 +1,5 @@
+saya seorang mahasiswa
+saya masih semester 2
+saya jurusan IT
+saya suka coding
+saya bisa JS
