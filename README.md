@@ -1,2 +1,2 @@
-# SILABAN-resolusi
-Repository untuk menyimpan rencana SILABAN kedepannya
+# belajar_Fron_End Developer
+Repository ini untuk membuat project kecil kedepannya
