@@ -1,3 +1,1 @@
-SILABAN RESOLUSI
 - Konsisten untuk membuat project 1x seminggu
-- Membuat web sederhana hanya untuk project kecil saja

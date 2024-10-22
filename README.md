@@ -1,2 +1,4 @@
-# belajar_Fron_End-Developer
-Repository ini untuk membuat project kecil kedepannya
+# Calon-Ngetik
+Repository ini digunakan untuk belajar selama kuliah
+
+![Gambar Project](img/Screenshot%20(59).png)

@@ -1,0 +1,236 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* mematikan sementara 
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}*/
+ .navbar a {
+  float: left;
+   display: block; 
+  color: #f2f2f2;
+  text-align: center;
+  /*  20px*/
+  padding: 14px 30px;
+  text-decoration: none; 
+  background-color: #333;
+  position: relative;
+}  
+
+nav ul {
+  list-style-type: none; /* Menghilangkan bullet point */
+  padding: 0; /* Menghilangkan padding default */
+  display: flex; /* Menampilkan item daftar secara horizontal */
+}
+
+nav li {
+  margin-right: 20px; /* Memberikan jarak antar item */
+}
+
+nav a {
+  color: white; /* Warna teks */
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Garis bawah saat hover */
+}
+
+ .sidebar ul li {
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  color: #f5f5f5;
+} 
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.section {
+  padding: 20px;
+  text-align: center;
+}
+.header {
+  background-color: #00FFFF;
+  width: 1400px;
+  height: 200px;
+}
+.about {
+  background-color: #FF0000;
+  color: #000000;
+  width: 1400px;
+  height: 190px;
+}
+
+.services {
+  background-color: #008000;
+  color: #000000;
+  width: 1400px;
+  height: 300px;
+}
+
+.services ul li {
+  list-style-type: none;
+}
+
+.gallery {
+  background-color: #FFD700;
+  color: #000000;
+  width: 1400px;
+  height: 400px;
+}
+.contact {
+  background-color: #1E90FF;
+  color: #FFFFFF;
+  width: 1400px;
+  height: 400px;
+}
+h1, h2 {
+  margin: 0;
+}
+.gallery img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+}
+
+/* menambahkan */
+ .header {
+  margin-top: 90px;
+} 
+
+/* .header h1 {
+  margin-top: 90px;
+} */
+
+/* h1 {
+  position: relative;
+  top: -50px;
+}
+ */
+
+/* .header h1 p {
+  position: relative;
+  top: -0px;
+} */
+
+/* #about {
+  margin-top: 90px;
+  
+} */
+
+.about {
+transform: translateY(-90px);
+}
+
+.about h2 {
+  margin-top: 90px;
+
+}
+#services {
+  margin-top: 90px;
+}
+
+.services h2 {
+  /* margin-top: 90px; */
+  transform: translateY(-10%);
+}
+
+/* #services h2 {
+  
+} */
+
+.services {
+  transform: translateY(-180px);
+}
+
+#gallery {
+  margin-top: 90px;
+}
+
+#gallery h2 {
+  margin-top: 90px;
+}
+
+.gallery {
+  transform: translateY(-90%);
+}
+
+#contact {
+  margin-top: 90px;
+}
+
+.contact {
+  transform: translateY(-120%);
+}
+/* menambahkan */
+:root {
+  --primary: #b6895b
+  --bg: #010101
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+/* html {
+  croll-behavior: smooth;
+} */
+/* menambakan */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgb(1, 1, 1, 0.8);
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.hamburger {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none; /* Sembunyikan hamburger menu di desktop */
+}
+
+/* Media query untuk tampilan mobile */
+@media (max-width: 768px) {
+  .hamburger {
+      display: block; /* Tampilkan hamburger menu di mobile */
+  }
+
+  nav ul {
+      display: none; /* Sembunyikan menu di mobile */
+      flex-direction: column; /* Menampilkan item daftar secara vertikal */
+      position: absolute;
+      background-color: #333;
+      width: 100%;
+      top: 50px; /* Jarak dari atas */
+  }
+
+  nav ul.show {
+      display: flex; /* Tampilkan menu saat hamburger diklik */
+  }
+
+  nav li {
+      margin: 10px 0; /* Jarak antar item di mobile */
+  }
+}
+
+
