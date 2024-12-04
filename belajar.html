@@ -1,72 +1,108 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Bengkel Anda</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bengkel</title>
     <link rel="stylesheet" href="belajar.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-    <!-- merubah -->
-<nav class="navbar">
-    <div class="sidebar" class="hamburger" id="hamburger">
-        <div class="hamburger" id="hamburger">
-            &#9776;
-        </div>
-             <ul id="menu" class="hidden">
-                 <li class="active"><a href="#home">Home</a></li>
-                 <li><a href="#about">Tentang Kami</a></li>
-                 <li><a href="#services">Layanan Kami</a></li>
-                 <li><a href="#gallery">Galeri Kami</a></li>
-                 <li> <a href="#contact">Kontak Kami</a></li>
-             </ul>   
+<!-- bagian Navbar -->
+<nav>
+    <div class="logo">
+     <img src="gambar-logo/Biru Simpel Bengkel Logo.png" alt="ini gambar">
     </div>
-        
-<a class="toggler-navbar">
-                <div class="hamburger-menu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-            </a>
-        <a class="logo" href="">
-        </a>
-    </nav>
-<!-- merubah -->
+    <div class="menu-hamburger" id="menu-hamburger">
+         <i class="ph ph-list"></i>
+    </div>
+        <ul id="menu-sejajar" class="hidden">
+            <li class="active">
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#tentang kami">Tentang Kami</a>
+            </li>
+            <li>
+                <a href="#layanan kami">Layanan Kami</a>
+            </li>
+            <li>
+                <a href="#gallery">Galeri Kami</a>
+            </li>
+            <li>
+                    <a href="#contact">Kontak Kami</a>
+            </li>
+        </ul>
+</nav>
 
 <!-- id="home" -->
-<div class="section header" >
-    <h1>Bengkel Anda</h1>
-    <p>Solusi Terbaik untuk Kendaraan Anda</p>
+<div class="container" class="section home" id="home">
+    <main class="thishome">
+        <h1>Bengkel Kami</h1>
+        <p>Solusi Terbaik Untuk Kendaraan Anda</p>
+    </main>
 </div>
-    
-    <div class="section about" id="about" >
-        <h2 >Tentang Kami</h2>
-        <p>Bengkel Anda menyediakan layanan perbaikan dan perawatan kendaraan dengan kualitas terbaik dan harga terjangkau.</p>
-    </div>
-    <div class="section services" id="services">
-        <h2>Layanan Kami</h2>
-        <ul>
-            <li>Servis Berkala</li>
-            <li>Perbaikan Mesin</li>
-            <li>Ganti Oli</li>
-            <li>Perbaikan Rem</li>
-            <li>Perbaikan AC</li>
-            <li>Perbaikan Transmisi</li>
-            <li>Perbaikan Suspensi</li>
-            <li>Diagnostik Komputer</li>
-        </ul>
-    </div>
-    <div class="section gallery" id="gallery">
+
+<div class="container" class="section tentang kami" id="tentang kami">
+    <main>
+        <div class="catatan">
+            <h2 >Tentang Kami</h2>
+        </div>
+        <div class="tentang">
+            <p>Di Bengkel Kami, Komitmen Kami adalah Memberikan Layanan Terbaik untuk Anda
+            Sebagai bengkel otomotif yang telah berpengalaman selama lebih dari 20 tahun, kami berkomitmen untuk menyediakan layanan perbaikan dan perawatan kendaraan dengan kualitas tinggi serta harga yang terjangkau.
+            Tim kami terdiri dari teknisi-teknisi handal yang terlatih dan bersertifikasi, sehingga Anda dapat yakin bahwa kendaraan Anda akan ditangani dengan profesional. Kami menggunakan suku cadang asli dan peralatan terbaru untuk memastikan pekerjaan kami sesuai dengan standar pabrikan.
+            Selain itu, kami juga menawarkan berbagai layanan tambahan untuk memberikan pengalaman terbaik bagi pelanggan kami, seperti:
+            
+            Layanan Pick-up dan Antar
+            Diskon Spesial untuk Member Setia
+            Garansi Perbaikan hingga 1 Tahun
+            Konsultasi Gratis terkait Kondisi Kendaraan
+            
+            Kepuasan Pelanggan adalah Prioritas Kami
+            Kami menyadari bahwa kepercayaan pelanggan adalah kunci dari keberhasilan bisnis kami. Oleh karena itu, kami berkomitmen untuk memberikan pengalaman positif bagi setiap pelanggan yang datang ke Bengkel Kami.
+            Tim kami akan selalu berusaha memahami kebutuhan Anda dan menyediakan solusi terbaik. Kami juga terbuka untuk menerima masukan dan saran agar dapat terus meningkatkan kualitas layanan kami.
+            Terima kasih telah memilih Bengkel Kami sebagai mitra Anda dalam merawat kendaraan. Kami tidak sabar untuk dapat melayani Anda!
+            </p>
+        </div>
+    </main>     
+</div>
+
+<div class="container"   class="section  layanan kami" id="layanan kami">
+    <main>
+          <h2>Layanan Kami</h2>
+            <ul class="tentang">
+                <li>Servis Berkala</li>
+                <li>Perbaikan Mesin</li>
+                <li>Ganti Oli</li>
+                <li>Perbaikan Rem</li>
+                <li>Perbaikan AC</li>
+                <li>Perbaikan Transmisi</li>
+                <li>Perbaikan Suspensi</li>
+                <li>Diagnostik Komputer</li>
+            </ul>
+    </main>
+</div>
+
+<div class="container" class="section gallery" id="gallery">
+    <main>
         <h2>Galeri Kami</h2>
-        <img src="https://placehold.co/200x150" alt="Gambar bengkel 1">
-        <img src="https://placehold.co/200x150" alt="Gambar bengkel 2">
-        <img src="https://placehold.co/200x150" alt="Gambar bengkel 3">
-        <img src="https://placehold.co/200x150" alt="Gambar bengkel 4">
-    </div>
-    <div class="section contact" id="contact">
+            <div id="lay">
+                <img src="gambar-logo/first-1.jpg" alt="Gambar bengkel 1">
+                <img src="gambar-logo/first-2.jpg" alt="Gambar bengkel 2">
+                <img src="gambar-logo/first-3.jpg" alt="Gambar bengkel 3">
+            </div>
+    </main>
+</div>
+
+<div class="container" class="section contact" id="contact">
+    <main>
         <h2>Kontak Kami</h2>
         <p>Alamat: Jl. Contoh No. 123, Kota Contoh</p>
         <p>Telepon: (021) 123-4567</p>
         <p>Email: info@bengkelanda.com</p>
-    </div>
-    <script src="belajar.js"></script>
+    </main>   
+</div>
+<script src="belajar.js"></script>
 </body>
 </html>

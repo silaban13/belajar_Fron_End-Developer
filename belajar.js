@@ -1,4 +1,6 @@
-document.getElementById('hamburger').addEventListener('click', function() {
-    const menu = document.getElementById('menu');
-    menu.classList.toggle('show'); // Menambahkan atau menghapus kelas 'show'
-});
+let z = document.getElementById('menu-hamburger');
+let x = document.getElementById('menu-sejajar');
+
+z.addEventListener('click', () => {
+    x.classList.toggle('hidden');
+})
