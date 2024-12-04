@@ -1,4 +1,4 @@
 # Calon-Ngetik
-Repository ini digunakan untuk belajar selama kuliah
+Web bengkel sederhana
 
-![Gambar Project](img/Screenshot%20(59).png)
+![Gambar Project](img/gambar1.png)
