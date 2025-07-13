@@ -1,0 +1,138 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}  
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 5rem;
+}
+
+nav ul li:list-of-type {
+  padding-bottom: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #191919;
+  font-weight: 600;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(255, 68, 0, 0);
+  /* menggeser ke atas saya menambahkan  */
+    transform: translateY(-20px);
+}
+
+.menu-icon {
+  font-size: 20px;
+  display: none;
+}
+
+nav ul li a:hover {
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+main {
+  padding-top: 7rem;
+}
+
+.container {
+  padding: 3rem;
+  background-color: white;
+}
+
+/* saya menambahkan code ini */
+div main {
+  background-color: darkgray;
+  box-shadow: 5px 5px 5px black;
+  padding: 3rem;
+  text-align: center;
+}
+
+/* #home {
+  
+} */
+
+.thishome {
+  background-image: url(gambar-logo/perlatan.jpg);
+  height: 400px;
+  background-color: transparent;
+  color: gold;
+}
+
+.catatan h2 {
+  color: white;
+}
+
+.tentang p {
+  color: #f4f4f4;
+}
+
+/* .catatan h2 p {
+  color: white;
+} */
+
+.tentang li {
+  list-style-type: none;
+}
+
+ #gallery img {
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+#lay img {
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+  width: 300px;
+  height: 300px;
+}
+
+
+/* Media query untuk tampilan mobile */
+ @media only screen and (max-width: 768px) {
+   nav {
+     flex-wrap: wrap;
+     position: fixed;
+     width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul.hidden {
+    display: none;
+  }
+
+  .menu-hamburger {
+    display: flex;
+    align-items: center;
+  }
+} 
+
+
